@@ -1,0 +1,63 @@
+.svg-container{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap; 
+    justify-content: space-between;  
+    margin: 70px 0;
+}
+#desktop {
+    max-width: 55%;
+}
+#phone {
+    max-width:  12%;
+}
+h1 {
+    font-family: "Electrolize", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+}
+h3 {
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar {
+    width: 40%;
+    height: 30px;
+    background-color: #c7c7c7;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes fillAnimation {
+    from {
+        width: 0%;
+    }
+    to {
+        width: var(--progress-width);
+    }
+}
+
+.progress-text {
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+    width: 0%; /* Comienza en 0% */
+    animation: fillAnimation 2s ease-out forwards;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
