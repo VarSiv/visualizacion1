@@ -25,10 +25,10 @@
     <div class="progress-container">
 
       <div class="progress-bar">
-        <div class="progress-text green" style="--progress-width: 87%;">87%</div>
+        <div class="progress-text green" style="--progress-width: 87%;"><p>87%</p></div>
       </div>
       <div class="progress-bar">
-        <div class="progress-text red" style="--progress-width: 24%;">24%</div>
+        <div class="progress-text red" style="--progress-width: 24%;"><p>24%</p></div>
       </div>
 
     </div>

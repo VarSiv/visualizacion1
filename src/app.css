@@ -1,15 +1,20 @@
 .svg-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center ;
     max-width: 100%;
-    flex-wrap: wrap; 
-    justify-content: space-between;  
     margin: 70px 0;
+    gap: 20px; 
 }
 #desktop {
-    max-width: 55%;
+    max-width: 100%;
 }
 #phone {
-    max-width:  12%;
+    max-width:  20%;
+    justify-self: center;
+    align-self: center;
+
 }
 h1 {
     font-family: "Electrolize", sans-serif;
@@ -60,4 +65,9 @@ h3 {
 
 .red {
     background-color: red;
+}
+
+p {
+    padding: 0;
+    margin: 0;
 }
