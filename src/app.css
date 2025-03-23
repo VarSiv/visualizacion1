@@ -1,21 +1,4 @@
-.svg-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center ;
-    max-width: 100%;
-    margin: 70px 0;
-    gap: 20px; 
-}
-#desktop {
-    max-width: 100%;
-}
-#phone {
-    max-width:  20%;
-    justify-self: center;
-    align-self: center;
 
-}
 h1 {
     font-family: "Electrolize", sans-serif;
     font-weight: 900;
@@ -27,47 +10,3 @@ h3 {
     font-weight: 400;
 }
 
-.progress-container {
-    display: flex;
-    justify-content: space-between;
-}
-.progress-bar {
-    width: 40%;
-    height: 30px;
-    background-color: #c7c7c7;
-    border-radius: 5px;
-    overflow: hidden;
-    position: relative;
-}
-
-@keyframes fillAnimation {
-    from {
-        width: 0%;
-    }
-    to {
-        width: var(--progress-width);
-    }
-}
-
-.progress-text {
-    height: 100%;
-    text-align: center;
-    line-height: 30px;
-    font-weight: bold;
-    color: white;
-    width: 0%; /* Comienza en 0% */
-    animation: fillAnimation 2s ease-out forwards;
-}
-
-.green {
-    background-color: green;
-}
-
-.red {
-    background-color: red;
-}
-
-p {
-    padding: 0;
-    margin: 0;
-}

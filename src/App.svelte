@@ -1,7 +1,10 @@
+
 <!-- Script JS -->
 <script>
   /* Importamos d3 para tenerlo disponible */
   import * as d3 from 'd3'
+  import IsotypeBars from "./lib/IsotypeBars.svelte"
+  let numbers = [24, 33, 42, 54, 63, 71, 77, 87, 92, 98]
 
 </script>
 <head>
@@ -15,25 +18,13 @@
     <h1 class="title">Comparaciones en computación</h1>
     <h3 >Visualizando las diferencias en las capacidades de computo de los dispositivos.</h3>
   </div>
-  
-  <div class="vis-container">
-    <div class="svg-container">
-      <img src="./images/desktop.svg" alt="desktop computer" id="desktop">
-      <img src="./images/phone.svg" alt="phone" id="phone">
-    </div>
 
-    <div class="progress-container">
+  <IsotypeBars
+    numbers={numbers}
+    title="Magnitudes. Canal: longitud. Tipo: gráfico Isotype"
+  />
+<hr />
 
-      <div class="progress-bar">
-        <div class="progress-text green" style="--progress-width: 87%;"><p>87%</p></div>
-      </div>
-      <div class="progress-bar">
-        <div class="progress-text red" style="--progress-width: 24%;"><p>24%</p></div>
-      </div>
-
-    </div>
-    
-  </div>
 </main>
 
 <!-- Estilos CSS -->
