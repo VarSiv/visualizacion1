@@ -23,7 +23,7 @@
     numbers={numbers}
     title="Magnitudes. Canal: longitud. Tipo: gráfico Isotype"
   />
-<hr />
+
 
 </main>
 

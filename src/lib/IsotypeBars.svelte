@@ -3,10 +3,25 @@
   export let title = ""
   export let numbers = []
   
-  // Sort numbers from big to small
+  // ordenar de mayor a menor (js es raro)
   numbers.sort((a, b) => b - a)
 
   let numbersDivided10 = numbers.map(n => Math.floor(n / 10))
+
+  function getImageSrc(n) {
+      if (n > 85) {
+          return "./images/desktop.svg";
+      } else if (n >= 50) {
+          return "./images/laptop.svg";
+      } else {
+          return "./images/phone.svg";
+      }
+  }
+
+  function getColor(n) {
+      let hue = (n / 100) * 120; // 120 (green) to 0 (red)
+      return `hsl(${hue}, 100%, 50%)`;
+  }
 </script>
 
 <h3 class="headline">{title}</h3>
@@ -18,8 +33,9 @@
               {#each Array(n) as m}
                   <img
                       style="height: 70px; padding: 10px"
-                      src="./images/desktop.svg"
-                      alt="desktop computer"
+                      src={getImageSrc(numbers[index])}
+                      alt="device icon"
+                      fill={getColor(numbers[index])}
                   />
               {/each}
           </div>
