@@ -3,9 +3,10 @@
     export let title = "";
     export let numbers = [];
   
-    // Order numbers from highest to lowest
+    // Ordenamos numeros de mas grande a mas chico
     numbers.sort((a, b) => b - a);
-  
+    
+    // determinamos que svg usamos en base de la magnitud del numero
     function getImageSrc(n) {
         if (n > 85) {
             return "./images/desktop.svg";
@@ -19,6 +20,7 @@
   
   <h3 class="headline">{title}</h3>
   <div class="iso__container-iso">
+    <!--a cada numero le damos una fila, el textito del numero y un ancho basado en porcentaje-->
     {#each numbers as n, index}
         <div class="row">
             <p class="number-label">{n}</p>
@@ -40,7 +42,7 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-bottom: 45px; /* Increased space between rows */
+        margin-bottom: 45px;
         position: relative;
         width: 100%;
     }
@@ -55,9 +57,9 @@
   
     .background-bar {
         height: 70px;
-        opacity: 1; /* Full opacity */
+        opacity: 1;
         background-repeat: repeat-x;
-        background-size: auto 90%; /* Reduced size slightly for spacing */
+        background-size: auto 90%; 
         background-position: left center;
     }
   </style>
