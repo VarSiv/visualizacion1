@@ -19,21 +19,21 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      background-color: #f8f9fa;
+      background-color: #232330;
       font-size: 0.9rem;
-      color: #333;
-      border-top: 1px solid #ddd;
+      color: #bbbbbb;
     }
   
     .right a {
       margin-left: 1rem;
       text-decoration: none;
-      color: #333;
+      color: #bbbbbb;
     }
-  
   
     .right a:hover {
       text-decoration: underline;
+      color: #ffffff;
     }
   </style>
+  
   
