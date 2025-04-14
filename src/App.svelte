@@ -29,6 +29,10 @@
       Es obvio que cada tipo de procesador tiene distinta potencia, y hay un tradeoff entre portabilidad y capacidad de cómputo.  
       Abajo se ilustran las diferencias entre las distintas PCs, laptops y celulares.  
     </p>
+    <p>  
+      Ademas, vamos a analizar como se compara el crecimiento de celulares y PCs en las ultimas decadas, graficando ventas
+      y potencial de computo.
+    </p>
   </div>
 
   <!-- Grid Section -->
@@ -42,8 +46,10 @@
         <noscript><img src="https://public.flourish.studio/visualisation/22644936/thumbnail" width="100%" alt="chart visualization" />
         </noscript>
       </div>
-      <p>
-          Los celulares cada vez 
+      <p class="caption">
+          La venta de celulares viene creciendo de forma constante desde el principio del siglo. Hoy en dia, casi todas las personas 
+          tienen uno. Por otro lado, las desktops no mantuvieron su popularidad. Sus ventas llegaron a un maximo en 2012, y desde ese 
+          punto vienen disminuyendo. Al parecer, las personas prefieren dispositivos mas portatiles en lugar de computadoras enormes.
       </p>
     </div>
     <div class="grid-item">
@@ -52,8 +58,10 @@
         <noscript><img src="https://public.flourish.studio/visualisation/22644519/thumbnail" width="100%" alt="chart visualization" />
         </noscript>
       </div>
-      <p>
-
+      <p class="caption">
+        En cuanto a mejoras en la capacidad de computo, vemos que los celulares, igual que en el grafico anterior, tuvieron un
+        crecimiento mas o menos constante a lo largo de los años. Las PCs tuvieron inovaciones explosivas del 2000 al 2010, 
+        pero en la ultima decada hubo poco progreso.
       </p>
     </div>
   </div>
