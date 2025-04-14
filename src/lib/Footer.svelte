@@ -18,8 +18,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 2rem;
-      background-color: #232330;
+      border-top: 1px solid #5a5a5a;
+      padding: 2rem 0;
       font-size: 0.9rem;
       color: #bbbbbb;
     }

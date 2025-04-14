@@ -9,11 +9,11 @@
     // determinamos que svg usamos en base de la magnitud del numero
     function getImageSrc(n) {
         if (n > 85) {
-            return "./images/desktop.svg";
+            return "./images/desktop2.svg";
         } else if (n >= 50) {
-            return "./images/laptop.svg";
+            return "./images/laptop2.svg";
         } else {
-            return "./images/phone.svg";
+            return "./images/phone2.svg";
         }
     }
   </script>
@@ -41,8 +41,8 @@
     .row {
         display: flex;
         align-items: center;
-        gap: 10px;
-        margin-bottom: 45px;
+        gap: 5px;
+        margin-bottom: 25px;
         position: relative;
         width: 100%;
     }
@@ -56,7 +56,7 @@
     }
   
     .background-bar {
-        height: 70px;
+        height: 50px;
         opacity: 1;
         background-repeat: repeat-x;
         background-size: auto 90%; 
