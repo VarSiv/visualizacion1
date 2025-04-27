@@ -15,8 +15,8 @@
 
 <main id="container">
   <div class="text-container">
-    <h1 class="title">La revolucion de los celulares</h1>
-    <h3>Como cambia nuestro consumo a traves del tiempo?</h3>
+    <h1 class="title">La revolución de los celulares</h1>
+    <h3>¿Cómo cambia nuestro consumo a través del tiempo?</h3>
     <p class="intro">
       Las primeras computadoras se desarrollaron en los años 1940.  
       Durante 30 años fueron un objeto exclusivo de los científicos y las fuerzas militares, hasta 1975, con la comercialización del Altair 8800.  
@@ -26,12 +26,12 @@
     <p class="intro">  
       Pero en el siglo XXI tenemos muchos más dispositivos. Conectamos todos los componentes en una sola pieza para construir una laptop.  
       ¡El celular en tu bolsillo también es una computadora!  
-      Es obvio que cada tipo de procesador tiene distinta potencia, y hay un tradeoff entre portabilidad y capacidad de cómputo.  
+      Es obvio que cada tipo de procesador tiene distinta potencia, y hay un *trade-off* entre portabilidad y capacidad de cómputo.  
       Abajo se ilustran las diferencias entre las distintas PCs, laptops y celulares.  
     </p>
     <p class="intro">  
-      Ademas, vamos a analizar como se compara el crecimiento de celulares y PCs en las ultimas decadas, graficando ventas
-      y potencial de computo.
+      Además, vamos a analizar cómo se compara el crecimiento de celulares y PCs en las últimas décadas, graficando ventas
+      y potencial de cómputo.
     </p>
   </div>
 
@@ -39,7 +39,6 @@
   <div class="grid-2x2">
     <div class="grid-item span-2">
       <IsotypeBars numbers={numbers} numbers2={numbers2} title="" />
-
     </div>
     <div class="grid-item">
       <div class="flourish-embed flourish-chart" data-src="visualisation/22644519">
@@ -48,15 +47,16 @@
         </noscript>
       </div>
       <p class="caption">
-        Aca graficamos el porcentaje vendido de celulares vs PCs. 
+        Acá graficamos el porcentaje vendido de celulares vs PCs. Podemos ver que hasta 2012 venían muy parejo, pero después
+        hay un crecimiento notable en el consumo de celulares relativo a las computadoras. 
       </p>
     </div>
     <div class="grid-item">
       <div class="flourish-embed flourish-chart" data-src="visualisation/22870420"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22870420/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
       <p class="caption">
-        En cuanto a mejoras en la capacidad de computo, vemos que los celulares, igual que en el grafico anterior, tuvieron un
-        crecimiento mas o menos constante a lo largo de los años. Las PCs tuvieron inovaciones explosivas del 2000 al 2010, 
-        pero en la ultima decada hubo poco progreso.
+        En este gráfico podemos ver la diferencia entre las ventas absolutas de celulares y desktops. Al principio viene 
+        emparejado, pero recientemente explotó esta disparidad. Esto se debe tanto al aumento de los celulares como al 
+        decaimiento de las PCs, haciendo este efecto tanto más notable.
       </p>
     </div>
   </div>
@@ -65,7 +65,6 @@
 </main>
 
 <style>
-
   #container {
     width: 100%;
     height: 100vh;
