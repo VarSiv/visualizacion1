@@ -15,21 +15,21 @@
 
 <main id="container">
   <div class="text-container">
-    <h1 class="title">Tendencias en computación</h1>
-    <h3>Visualizando las diferencias en las capacidades de computo de los dispositivos.</h3>
-    <p>
+    <h1 class="title">La revolucion de los celulares</h1>
+    <h3>Como cambia nuestro consumo a traves del tiempo?</h3>
+    <p class="intro">
       Las primeras computadoras se desarrollaron en los años 1940.  
       Durante 30 años fueron un objeto exclusivo de los científicos y las fuerzas militares, hasta 1975, con la comercialización del Altair 8800.  
       Ese dispositivo era enorme y pesaba 30 kilos (!!). En los siguientes 50 años se llevaron adelante grandes avances en computadoras personales.  
       Las PCs son las que más conservaron su forma original, con el gabinete por un lado y el monitor, teclado y mouse por otro.  
     </p>
-    <p>  
+    <p class="intro">  
       Pero en el siglo XXI tenemos muchos más dispositivos. Conectamos todos los componentes en una sola pieza para construir una laptop.  
       ¡El celular en tu bolsillo también es una computadora!  
       Es obvio que cada tipo de procesador tiene distinta potencia, y hay un tradeoff entre portabilidad y capacidad de cómputo.  
       Abajo se ilustran las diferencias entre las distintas PCs, laptops y celulares.  
     </p>
-    <p>  
+    <p class="intro">  
       Ademas, vamos a analizar como se compara el crecimiento de celulares y PCs en las ultimas decadas, graficando ventas
       y potencial de computo.
     </p>
@@ -38,7 +38,8 @@
   <!-- Grid Section -->
   <div class="grid-2x2">
     <div class="grid-item span-2">
-      <IsotypeBars numbers={numbers} title="" />
+      <IsotypeBars numbers={numbers} numbers2={numbers2} title="" />
+
     </div>
     <div class="grid-item">
       <div class="flourish-embed flourish-chart" data-src="visualisation/22644936">
