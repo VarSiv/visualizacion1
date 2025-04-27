@@ -42,23 +42,17 @@
 
     </div>
     <div class="grid-item">
-      <div class="flourish-embed flourish-chart" data-src="visualisation/22644936">
-        <script src="https://public.flourish.studio/resources/embed.js"></script>
-        <noscript><img src="https://public.flourish.studio/visualisation/22644936/thumbnail" width="100%" alt="chart visualization" />
-        </noscript>
-      </div>
-      <p class="caption">
-          La venta de celulares viene creciendo de forma constante desde el principio del siglo. Hoy en dia, casi todas las personas 
-          tienen uno. Por otro lado, las desktops no mantuvieron su popularidad. Sus ventas llegaron a un maximo en 2012, y desde ese 
-          punto vienen disminuyendo. Al parecer, las personas prefieren dispositivos mas portatiles en lugar de computadoras enormes.
-      </p>
-    </div>
-    <div class="grid-item">
       <div class="flourish-embed flourish-chart" data-src="visualisation/22644519">
         <script src="https://public.flourish.studio/resources/embed.js"></script>
         <noscript><img src="https://public.flourish.studio/visualisation/22644519/thumbnail" width="100%" alt="chart visualization" />
         </noscript>
       </div>
+      <p class="caption">
+        Aca graficamos el porcentaje vendido de celulares vs PCs. 
+      </p>
+    </div>
+    <div class="grid-item">
+      <div class="flourish-embed flourish-chart" data-src="visualisation/22870420"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22870420/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
       <p class="caption">
         En cuanto a mejoras en la capacidad de computo, vemos que los celulares, igual que en el grafico anterior, tuvieron un
         crecimiento mas o menos constante a lo largo de los años. Las PCs tuvieron inovaciones explosivas del 2000 al 2010, 
