@@ -19,19 +19,10 @@
     <h3>¿Cómo cambia nuestro consumo a través del tiempo?</h3>
     <p class="intro">
       Las primeras computadoras se desarrollaron en los años 1940.  
-      Durante 30 años fueron un objeto exclusivo de los científicos y las fuerzas militares, hasta 1975, con la comercialización del Altair 8800.  
-      Ese dispositivo era enorme y pesaba 30 kilos (!!). En los siguientes 50 años se llevaron adelante grandes avances en computadoras personales.  
-      Las PCs son las que más conservaron su forma original, con el gabinete por un lado y el monitor, teclado y mouse por otro.  
+      Durante 30 años fueron un objeto exclusivo de los científicos y las fuerzas militares, hasta 1975, con la comercialización del Altair 8800. Desde ahí, empezó una guerra entre las empresas tecnológicas para captar la mayor parte del mercado posible.
     </p>
     <p class="intro">  
-      Pero en el siglo XXI tenemos muchos más dispositivos. Conectamos todos los componentes en una sola pieza para construir una laptop.  
-      ¡El celular en tu bolsillo también es una computadora!  
-      Es obvio que cada tipo de procesador tiene distinta potencia, y hay un *trade-off* entre portabilidad y capacidad de cómputo.  
-      Abajo se ilustran las diferencias entre las distintas PCs, laptops y celulares.  
-    </p>
-    <p class="intro">  
-      Además, vamos a analizar cómo se compara el crecimiento de celulares y PCs en las últimas décadas, graficando ventas
-      y potencial de cómputo.
+      Hoy en día hay toda clase de cosas inteligentes: celus, laptops, relojes, ¡incluso los lavarropas tienen una conexión a internet! Por mucho tiempo las PC desktop eran el dispositivo dominante en cuanto a computadoras domesticas, pero en este dashboard vamos a analizar la revolución del celular como objeto predominante.
     </p>
   </div>
 
